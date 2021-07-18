@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+       <div class="bgimg">
+           <img src="images/bg-pattern.svg" alt="background circles">
+       </div>
+       <header>
+           <h1>Simple, traffic-based pricing</h1>
+           <p>Sign-up for our 30-day trial. No credit card required.</p>
+       </header>
+
+       <main>
+           <div class="top">
+               <div class="pricing-and-views">
+                   <div class="page-views">
+                       <p><span class="component-page-views">100</span>k pageviews</p>
+                   </div>
+                   <div class="pricing">
+                       <label for="slider"><span class="price price-js">$16</span><span class="price">.00&nbsp;</span>/ month</label>
+                   </div>
+               </div>
+               <div class="slider-bar">
+                   <input type="range" min="0" max="100" value="50" step="2" id="slider" class="slider-1">
+               </div>
+               <div class="billing">
+                    <p>Monthly Billing</p>
+                    <input type="checkbox" name="check-box" class="component-checkbox">
+                    <p>Yearly Billing</p>
+                    <p class="discount" id="discount">25% discount</p>
+               </div>
+           </div>
+           <div class="bottom">
+               <ul>
+                   <li>Unlimited websites</li>
+                   <li>100% data ownership</li>
+                   <li>Email reports</li>
+               </ul>
+               <button type="button">Start my trial</button>
+           </div>
+       </main>
+
+       <footer>Challenge by <a href="https://www.frontendmentor.io/solutions">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/dany114">Daniel Petcov</a></footer>
+   </div> 
+</body>
+</html>
